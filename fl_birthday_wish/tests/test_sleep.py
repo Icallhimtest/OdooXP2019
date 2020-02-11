@@ -3,12 +3,12 @@
 import logging
 import time
 
-from odoo.tests.common import SavepointCase
+from odoo.tests.common import TransactionCase
 
 log = logging.getLogger(__name__)
 
 
-class Zzzzzzz(SavepointCase):
+class Zzzzzzz(TransactionCase):
 
     def test_timeout(self):
         log.info('starting the sleep test')
