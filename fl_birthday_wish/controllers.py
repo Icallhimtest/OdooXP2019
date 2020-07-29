@@ -9,7 +9,7 @@ log = logging.getLogger(__name__)
 
 
 class worker(http.Controller):
-    def coucou(a):
+    def coucou(self, a):
         fake_sql_reqs = int(random.random() * 100)
         breaks = sorted([random.randrange(1, a) for i in range(fake_sql_reqs)], reverse=1)
         for b in breaks:
