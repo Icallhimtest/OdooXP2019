@@ -17,6 +17,11 @@ class worker(http.Controller):
                 a -= 1
             time.sleep(random.random() / 100)
 
+    @http.route('/slowpoke0', type='http', auth='none')
+    def slowpoke0(self, **params):
+        self.coucou(10**6)
+        return '200 OK'
+
     @http.route('/slowpoke1', type='http', auth='none')
     def slowpoke1(self, **params):
         self.coucou(10**7)
