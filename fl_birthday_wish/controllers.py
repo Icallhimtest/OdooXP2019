@@ -28,3 +28,10 @@ class worker(http.Controller):
         while a < 10**9:
             a += 1
         return '200 OK'
+
+    @http.route('/slowpoke4', type='http', auth='none')
+    def slowpoke4(self, **params):
+        a = 0
+        while a < 10**10:
+            a += 1
+        return '200 OK'
