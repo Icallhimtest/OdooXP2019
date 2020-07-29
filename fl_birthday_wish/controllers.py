@@ -25,6 +25,6 @@ class worker(http.Controller):
     @http.route('/slowpoke3', type='http', auth='none')
     def slowpoke3(self, **params):
         a = 0
-        while a < 3 * 10**8:
+        while a < 10**9:
             a += 1
         return '200 OK'
