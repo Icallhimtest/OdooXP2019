@@ -1,0 +1,4 @@
+[submodule "Icallhimtest/private_bitch"]
+	path = Icallhimtest/private_bitch
+	url = git@github.com:Icallhimtest/private_bitch.git
+	branch = app-fl_birthday_wish
