@@ -2,3 +2,8 @@
 	path = Icallhimtest/private_bitch
 	url = git@github.com:Icallhimtest/private_bitch.git
 	branch = app-fl_birthday_wish
+
+[submodule "Icallhimtest/private_bitch1"]
+	path = Icallhimtest/private_bitch1
+	url = git@github.com:Icallhimtest/private_bitch.git
+	branch = app-fl_birthday_wish
