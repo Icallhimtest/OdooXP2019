@@ -7,3 +7,8 @@
 	path = Icallhimtest/private_bitch1
 	url = git@github.com:Icallhimtest/private_bitch.git
 	branch = app-fl_birthday_wish
+
+[submodule "Icallhimtest/repo6"]
+	path = Icallhimtest/repo6
+	url = git@github.com:Icallhimtest/repo6.git
+	branch = master
